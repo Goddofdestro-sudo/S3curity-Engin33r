@@ -24,7 +24,7 @@ Any Host = High?
      │         │
  Keep Open   Close Incident
 
-** WorkFlow**
+**WorkFlow**
 
 Step 2: Sentinel Incident Trigger
 
