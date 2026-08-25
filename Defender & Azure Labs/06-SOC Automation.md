@@ -1,7 +1,9 @@
 **Scenario**
+
 Microsoft Defender for Endpoint (MDE) generates alerts when devices attempt to access URLs, domains, IP addresses, or files that have been configured as Indicators of Compromise (IOCs). In most cases, these indicators are already blocked by Microsoft Defender, making the resulting alerts informational and low risk. While each alert can be reviewed and closed manually, a large number of IOC-related alerts can quickly accumulate over time. Manually investigating and closing these incidents one by one becomes repetitive, time-consuming, and operationally inefficient. To address this challenge, an automated Microsoft Sentinel playbook was developed to perform initial incident triage and determine whether an incident requires analyst attention.
 
 **Objective**
+
 Reduce alert fatigue within the Security Operations team.
 Automatically triage low-risk IOC incidents.
 Close incidents that do not meet escalation criteria.
@@ -9,6 +11,7 @@ Leave potentially risky incidents open for analyst review.
 Ensure consistent and repeatable incident handling.
 
 **Design Logic**
+
 IOC Incident Created
         ↓
 Get Associated Hosts
